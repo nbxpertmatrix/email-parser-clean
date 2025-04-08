@@ -60,5 +60,5 @@ def fetch_and_process_unread():
 if __name__ == "__main__":
     while True:
         fetch_and_process_unread()
-        print("Sleeping for 5 minutes...\n")
-        time.sleep(300)
+        print("Sleeping for 1 minutes...\n")
+        time.sleep(60)
