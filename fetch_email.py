@@ -11,7 +11,7 @@ load_dotenv()
 EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 IMAP_SERVER = "imap.gmail.com"
-API_ENDPOINT = "http://127.0.0.1:5000/parse-email"
+API_ENDPOINT = "https://email-parser-clean.onrender.com/parse-email"
 
 def fetch_and_process_unread():
     print("Connecting to inbox...")
